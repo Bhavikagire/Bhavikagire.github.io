@@ -1,7 +1,7 @@
 // Resume Button 1 - Resume Section
 const resumeButton1 = document.getElementById("resume-button-1");
 resumeButton1.addEventListener("click", function() {
-  window.open("path/to/resume.pdf", "_blank");
+  window.open("Bhavika_Gire_Resume (1).pdf", "_blank");
 });
 
 // Resume Button 2 - Home/About Section
@@ -28,7 +28,7 @@ if (streakStats) {
 const topLangs = document.getElementById("github-top-langs");
 if (topLangs) {
   const topLangsImg = document.createElement("img");
-  topLangsImg.src = "https://github.com/anuraghazra/github-readme-stats";
+  topLangsImg.src = "https://github.com/Bhavikagire/github-readme-stats";
   topLangs.appendChild(topLangsImg);
 }
 
@@ -36,7 +36,7 @@ if (topLangs) {
 const statsCard = document.getElementById("github-stats-card");
 if (statsCard) {
   const statsCardImg = document.createElement("img");
-  statsCardImg.src = "https://github.com/anuraghazra/github-readme-stats";
+  statsCardImg.src = "https://github.com/Bhavikagire/github-readme-stats";
   statsCard.appendChild(statsCardImg);
 }
 
@@ -52,10 +52,10 @@ menuIcon.onclick = () => {
 };
 
 // *=============================== github calender ==================================
-    GitHubCalendar(".calendar", "vaibhzz101");
+    GitHubCalendar(".calendar", "Bhavikagire");
 
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "vaibhzz101", { responsive: true });
+    GitHubCalendar(".calendar", "Bhavikagire", { responsive: true });
 
 // *=============================== resume open in new tab ==================================
 
@@ -65,7 +65,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/16tQUUbquZpysvg0H4ZR6gTEdReZQuqjO/view",
+        "https://drive.google.com/file/d/1mWDwLrjilgUdLZ1BiWJJsh9N3fBUfINj/view?usp=sharing",
         "_blank"
       );
     }
