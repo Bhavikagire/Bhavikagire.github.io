@@ -7,7 +7,7 @@ resumeButton1.addEventListener("click", function() {
 // Resume Button 2 - Home/About Section
 const resumeButton2 = document.getElementById("resume-button-2");
 resumeButton2.addEventListener("click", function() {
-  window.open("path/to/resume.pdf", "_blank");
+  window.open("Bhavika_Gire_Resume (1).pdf", "_blank");
 });
 
 // GitHub Calendar
