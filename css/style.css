@@ -346,6 +346,48 @@ span {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
   }
+  /*---------------------------------------------------- tools--------------------------------------- */
+  #tools h2 {
+    margin-bottom: 5rem;
+  }
+  
+  .tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .tools-container .tools-card-1 {
+    flex: 1 1 30rem;
+    background: var(--bg-oxford-blue);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--border-prussian-blue);
+    transition: .5s ease;
+  }
+  
+  .tools-container .tools-card-1:hover {
+    border-color: var(--bg-carolina-blue);
+    transform: scale(1.02);
+  }
+  
+  .tools-card-1 i {
+    font-size: 7rem;
+    color: var(--bg-carolina-blue);
+  }
+  
+  .tools-card-1 h3 {
+    font-size: 2.6rem;
+  }
+  
+  .tools-card-1 p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+  }
+  
    
   
   /*-----------------------------------*\
@@ -841,10 +883,11 @@ margin-bottom: 3rem;
       text-align: center;
       margin-top: 2rem;
     }
-  }
+  
   .calender {
 margin: 20px;
   }
+}
 
   @media (min-width: 575px) {
     .home { position: relative; }
