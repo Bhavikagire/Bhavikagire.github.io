@@ -135,7 +135,6 @@ body {
 
 
 #nav-menu {
-  
   list-style: none;
   display: flex;
  
@@ -818,8 +817,10 @@ span.text-muted{
     #nav-menu {
       position: absolute;
       top: 100%;
-      padding-left: 10px;
+      left: 0;
+      padding-left: 15px;
       width: 100%;
+   
       background: var(--bg-oxford-blue);
       border-top: .1rem solid rgba(0, 0, 0, .2);
       box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
