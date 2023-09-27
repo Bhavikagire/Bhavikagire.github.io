@@ -769,6 +769,7 @@ span.text-muted{
 }
 
 /* ======== BREAKPOINTS */
+/* for small screen */
 
   @media (max-width: 1200px) {
     html {
