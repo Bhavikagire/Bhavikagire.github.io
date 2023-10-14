@@ -450,14 +450,7 @@ span {
     #Contact
   \*-----------------------------------*/
 /*   
-  .contact {
-    color: var(--bg-prussian-blue);
-  }
-  
-  .contact h2 {
-    margin-bottom: 3rem;
-  }
-  
+ 
   .contact form .input-box {
     display: flex;
     justify-content: space-between;
